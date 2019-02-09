@@ -19,6 +19,7 @@ var ledmatrix = require('./build/Release/rpi_rgb_led_matrix_nodejs.node');
 //var ledmatrix = require(path.join(__dirname, "build", "Release", "node-rpi-rgb-led-matrix.node"));
 var LedMatrix = ledmatrix.LedMatrix;
 
+/*
 LedMatrix.prototype._scroll = LedMatrix.prototype.scroll;
 LedMatrix.prototype.scroll = function(params, callback) {
 	var startx = params.x >= 0 ? params.x : 0;
@@ -69,5 +70,7 @@ LedMatrix.prototype.scroll2Bottom = function(params, callback) {
 	params.direction = LedMatrix.SCROLL_TO_BOTTOM;
 	this.scroll(params, callback);
 }
+*/
+
 
 module.exports = LedMatrix;
