@@ -20,7 +20,8 @@
             ],
 	        ##"include_dirs": [ "./external/matrix/include", "./include/", "<!(nodejs -e \"require('nan')\")" ]
             'include_dirs': [
-                "<!@(node -p \"require('node-addon-api').include\")"
+                "<!@(node -p \"require('node-addon-api').include\")",
+                "<!(nodejs -e \"require('nan')\")"
             ],
             'link_settings': {
                 'libraries': [
