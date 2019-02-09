@@ -10,6 +10,9 @@
                 # define here EXTERNAL source code to compile
 
                 # define here INTERNAL source code to compile
+                "src/base.cc", 
+                "src/ledmatrix.cc",
+                "src/image.cc",
                 "mod_wrapper/main.cpp",
                 #"mod_external/src/actualclass.cc",
                 "mod_wrapper/src/functionexample.cpp",
