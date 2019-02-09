@@ -1052,6 +1052,10 @@ int main(int argc, char *argv[]) {
   int demo = -1;
   int scroll_ms = 30;
 
+      fprintf(stderr, "Welcome\nWelcome\nWelcome\n", optarg);
+
+
+
   const char *demo_parameter = NULL;
   RGBMatrix::Options matrix_options;
   rgb_matrix::RuntimeOptions runtime_opt;
