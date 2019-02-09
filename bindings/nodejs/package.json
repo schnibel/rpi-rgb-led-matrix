@@ -17,6 +17,6 @@
   "dependencies": {
     "clean-cache": "^1.0.1",
     "node-addon-api": "^1.6.2",
-    "nan": "^2.2.0"
+    "nan": "^2.12.1"
   }
 }
