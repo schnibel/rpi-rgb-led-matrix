@@ -8,6 +8,7 @@
 
             # define here INTERNAL source code to compile
             "mod_wrapper/main.cpp",
+            "mod_external/src/actualclass.cc",
             "mod_wrapper/src/functionexample.cpp",
             "mod_wrapper/src/classexample.cpp"
         ],
