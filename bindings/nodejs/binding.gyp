@@ -20,7 +20,7 @@
             ],
 	        ##"include_dirs": [ "./external/matrix/include", "./include/", "<!(nodejs -e \"require('nan')\")" ]
             'include_dirs': [
-                "./include/",
+                "$(RPI_RGB_MATRIX_LED)/include/",
                 "<!@(node -p \"require('node-addon-api').include\")",
                 "<!(nodejs -e \"require('nan')\")"
             ],
