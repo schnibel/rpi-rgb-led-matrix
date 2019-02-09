@@ -17,7 +17,8 @@
         'link_settings': {
             'libraries': [
                 # define here all external prebuild libraries
-                '$(RPI_RGB_MATRIX_LED)/mod_external/lib/actualclass.o',
+                #'$(RPI_RGB_MATRIX_LED)/mod_external/lib/actualclass.o',
+                '$(RPI_RGB_MATRIX_LED)/lib/actualclass.o',
             ],
         },
         'libraries': [
