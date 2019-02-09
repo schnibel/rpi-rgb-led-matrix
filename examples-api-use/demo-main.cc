@@ -1052,7 +1052,7 @@ int main(int argc, char *argv[]) {
   int demo = -1;
   int scroll_ms = 30;
 
-      fprintf(stderr, "Welcome\nWelcome\nWelcome\n", optarg);
+      fprintf(stderr, "Welcome\nWelcome\nWelcome\n");
 
 
 
