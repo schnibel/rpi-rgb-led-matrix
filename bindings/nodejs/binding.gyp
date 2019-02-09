@@ -1,6 +1,6 @@
 {
     "targets": [{
-        "target_name": "testaddon",
+        "target_name": "rpi_rgb_led_matrix_nodejs",
         "cflags!": [ "-fno-exceptions" ],
         "cflags_cc!": [ "-fno-exceptions" ],
         "sources": [
